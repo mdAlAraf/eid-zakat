@@ -1,0 +1,51 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: .5;
+
+}
+
+.top-header {
+    color: white;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.336), rgba(0, 0, 0, 0.781)), url(../images/cover\ pic.png);
+    padding: 150px 200px;
+}
+
+
+.top-header p {
+    width: 40%;
+}
+
+.link-button {
+    background-color: #EF233C;
+    color: white;
+    padding: 7px 18px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+
+}
+
+
+.lives-depend .container {
+    display: flex;
+    padding: 160px 200px;
+}
+
+.lives-depend .half-width {
+    width: 50%;
+
+}
+
+.lives-depend .half-width img {
+    width: 80%;
+    height: 100%;
+    margin: 0px 100px;
+    margin-top: -20px;
+
+}
