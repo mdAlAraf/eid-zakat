@@ -31,21 +31,64 @@ h1 {
 
 }
 
-
-.lives-depend .container {
-    display: flex;
-    padding: 160px 200px;
+.lives-depend {
+    padding: 160px 0;
 }
 
-.lives-depend .half-width {
+.container {
+    display: flex;
+    padding: 0px 200px;
+}
+
+.half-width {
     width: 50%;
 
 }
 
-.lives-depend .half-width img {
+.half-width img {
     width: 80%;
     height: 100%;
     margin: 0px 100px;
     margin-top: -20px;
 
+}
+
+
+
+.suvive .half-width img {
+    display: inline-block;
+    align-items: left;
+    margin: -15px 0px;
+    width: 90%;
+    height: 100%;
+}
+
+.suvive .h-w {
+    text-align: left;
+    margin-left: 100px;
+
+
+}
+
+
+.donation {
+    padding: 100px 0;
+}
+
+.dh1 {
+
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    margin: 50px 200px;
+
+
+}
+
+.row-item-1 {
+    width: 30%;
+    display: flex;
+    margin-left: 130px;
 }
