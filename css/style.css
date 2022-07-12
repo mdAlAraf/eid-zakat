@@ -72,10 +72,11 @@ h1 {
 
 
 .donation {
-    padding: 100px 0;
+    padding: 80px 0;
 }
 
-.dh1 {
+.dh1,
+.Hand-area {
 
     text-align: center;
 }
@@ -91,4 +92,45 @@ h1 {
     width: 30%;
     display: flex;
     margin-left: 130px;
+}
+
+.extend-hand,
+.Hand {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.extend-hand img,
+.image3 {
+    margin: 10px 10px;
+    width: 30%;
+    width: cover;
+}
+
+.image3 img {
+    width: 100%;
+}
+
+.image3 a {
+    color: #EF233C;
+    font-weight: 700;
+}
+
+.Hand-area {
+    padding: 100px 0;
+}
+
+footer {
+
+    text-align: center;
+    background-color: black;
+    color: antiquewhite;
+    padding: 40px 0;
+}
+
+footer h2 {
+    font-family: 'Lobster', cursive;
+    font-weight: 500;
 }
